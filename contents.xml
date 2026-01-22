@@ -1,0 +1,683 @@
+<?xml version="1.0" ?>
+<contents>
+  <product_info>
+    <product_name>IPQ9574.ILQ.12.2.r5</product_name>
+    <hlos_type cmm_var="HLOS_TYPE">LE</hlos_type>
+    <chipid cmm_var="CHIPID">ipq9574</chipid>
+  </product_info>
+  <builds_flat>
+    <build>
+      <name>common</name>
+      <role>common</role>
+      <chipset>ipq9574</chipset>
+      <build_id>IPQ9574.ILQ.12.2.r5-00012-P-3</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>common</image_dir>
+      <release_path/>
+    </build>
+    <build>
+      <name>boot</name>
+      <role>boot</role>
+      <chipset>ipq9574</chipset>
+      <build_id>BOOT.XF.0.3.1.1-00086-IPQ90xxLZB-2</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>boot_images</image_dir>
+      <release_path>HY11_CompileTest</release_path>
+      <file_ref flash_file="true">
+        <file_name>xbl.elf</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Bin/9574/LA/RELEASE/sign/default/sbl1</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>xbl_nand.elf</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Bin/9574/LA/RELEASE/sign/default/sbl1</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>partition_tool</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Tools/</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>bootconfig_tool</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Tools/</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>XBLLoader.dll</file_name>
+        <file_path>boot_images/Build/IPQ9574_Loader/RELEASE_CLANG40LINUX/ARM/QcomPkg/XBLLoader/XBLLoader/DEBUG</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>QSaharaServer.exe</file_name>
+        <file_path>boot_images/QcomPkg/Tools/storage/fh_loader</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>Gen_xbl_nand_elf.py</file_name>
+        <file_path>boot_images/QcomPkg</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>prog_firehose_lite.elf</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Bin/9574/LA/RELEASE/sign/default/ENPRG</file_path>
+      </file_ref>
+      <file_ref flash_file_atf="true">
+        <file_name>xbl_atf.elf</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Bin/9574/LA/RELEASE/ATF/sign/default/sbl1</file_path>
+      </file_ref>
+      <file_ref flash_file_atf="true">
+        <file_name>xbl_nand_atf.elf</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Bin/9574/LA/RELEASE/ATF/sign/default/sbl1</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>xbl.elf</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Bin/9574/LA/RELEASE/sign/default/sbl1</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>xbl_nand.elf</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Bin/9574/LA/RELEASE/sign/default/sbl1</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>partition_tool</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Tools/</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>bootconfig_tool</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Tools/</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>XBLLoader.dll</file_name>
+        <file_path>boot_images/Build/IPQ9574_Loader/RELEASE_CLANG40LINUX/ARM/QcomPkg/XBLLoader/XBLLoader/DEBUG</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>QSaharaServer.exe</file_name>
+        <file_path>boot_images/QcomPkg/Tools/storage/fh_loader</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>Gen_xbl_nand_elf.py</file_name>
+        <file_path>boot_images/QcomPkg</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>prog_firehose_lite.elf</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Bin/9574/LA/RELEASE/sign/default/ENPRG</file_path>
+      </file_ref>
+      <file_ref flash_64_file_atf="true">
+        <file_name>xbl_atf.elf</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Bin/9574/LA/RELEASE/ATF/sign/default/sbl1</file_path>
+      </file_ref>
+      <file_ref flash_64_file_atf="true">
+        <file_name>xbl_nand_atf.elf</file_name>
+        <file_path>boot_images/QcomPkg/IPQ9574Pkg/Bin/9574/LA/RELEASE/ATF/sign/default/sbl1</file_path>
+      </file_ref>
+      <buildfile_path>python/</buildfile_path>
+      <build_command>python -u boot_images/QcomPkg/buildit.py --variant LA -r RELEASE -t IPQ9574Pkg -f atf &amp;&amp; rm -f boot_images/Conf/* &amp;&amp; python -u boot_images/QcomPkg/buildit.py --variant LA -r RELEASE -t IPQ5332Pkg -f atf &amp;&amp; rm -f boot_images/Conf/* &amp;&amp; python boot_images/packit.py -t IPQ5332,IPQ9574 --variant LZB --pack-dir HY11_ATF --binary-dir HK11_ATF &amp;&amp; python -u boot_images/QcomPkg/buildit.py --variant LA -r RELEASE -t IPQ5332Pkg --build_flags=&quot;cleanall&quot; &amp;&amp; python -u boot_images/QcomPkg/buildit.py --variant LA -r RELEASE -t IPQ9574Pkg &amp;&amp; rm -f boot_images/Conf/* &amp;&amp; python -u boot_images/QcomPkg/buildit.py --variant LA -r RELEASE -t IPQ5332Pkg &amp;&amp; rm -f boot_images/Conf/* &amp;&amp; python boot_images/packit.py -t IPQ5332,IPQ9574 --variant LZB</build_command>
+    </build>
+    <build>
+      <name>tz</name>
+      <role>tz</role>
+      <chipset>ipq9574</chipset>
+      <build_id>TZ.WNS.5.3-00297-IPQ90xxAAAAANAZT-1</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>trustzone_images</image_dir>
+      <release_path>HY11_CompileTest</release_path>
+      <file_ref flash_file="true">
+        <file_name>tz.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/OAPAANAA</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>devcfg.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/OAPAANAA</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>apdp.mbn</file_name>
+        <file_path>trustzone_images/ssg</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>devcfg_noac.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/OAPAANAA</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>devcfg_nosmmu.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/OAPAANAA</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>tz.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/OAPAANAA</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>devcfg.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/OAPAANAA</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>devcfg_noac.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/OAPAANAA</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>apdp.mbn</file_name>
+        <file_path>trustzone_images/ssg</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>devcfg_nosmmu.mbn</file_name>
+        <file_path>trustzone_images/build/ms/bin/OAPAANAA</file_path>
+      </file_ref>
+      <buildfile_path>python/</buildfile_path>
+      <build_command>python trustzone_images/build/ms/build_all.py CHIPSET=ipq90xx --branch TZ.WNS.5.3 --tree=prune &amp;&amp; python trustzone_images/build/ms/build_all.py CHIPSET=ipq90xx --branch TZ.WNS.5.3 --cbt='xbl_sec' &amp;&amp;python trustzone_images/build/ms/build_all.py CHIPSET=ipq90xx --branch TZ.WNS.5.3 --cbt='xbl_sec' USES_ATF_ONLY=1 &amp;&amp; python trustzone_images/build/ms/build_all.py CHIPSET=ipq53xx --branch TZ.WNS.5.3 --tree=prune  &amp;&amp; python trustzone_images/build/ms/build_all.py CHIPSET=ipq53xx --branch TZ.WNS.5.3 --cbt='xbl_sec' &amp;&amp; python trustzone_images/build/ms/build_all.py CHIPSET=ipq53xx --branch TZ.WNS.5.3 --cbt='xbl_sec' USES_ATF_ONLY=1 &amp;&amp; mkdir -p HK11 HY11_1 HY11_CompileTest &amp;&amp; cp -rf deploy_OAPAANAA/HK11/* HK11 &amp;&amp; cp -rf deploy_OAPAANAA/HY11_1/* HY11_1 &amp;&amp; cp -rf deploy_OAPAANAA_verify/HY11_1 HY11_CompileTest &amp;&amp; cp -rf deploy_MAPAANAA/HK11/* HK11 &amp;&amp; cp -rf deploy_MAPAANAA/HY11_1/* HY11_1 &amp;&amp; cp -rf deploy_MAPAANAA_verify/HY11_1 HY11_CompileTest</build_command>
+    </build>
+    <build>
+      <name>rpm</name>
+      <role>rpm</role>
+      <chipset>ipq9574</chipset>
+      <build_id>RPM.BF.2.4.1-00116-IPQ8074AAAAANAZR-6</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>rpm_proc</image_dir>
+      <release_path>HY11_CompileTest</release_path>
+      <file_ref flash_file="true">
+        <file_name>rpm.mbn</file_name>
+        <file_path>IPQ9574/rpm_proc/build/ms/bin/9574/</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>rpm.mbn</file_name>
+        <file_path>IPQ9574/rpm_proc/build/ms/bin/9574/</file_path>
+      </file_ref>
+      <buildfile_path>mkdir/</buildfile_path>
+      <build_command>mkdir -p ./rpm_proc_bk &amp;&amp; mkdir -p ./IPQ8074 &amp;&amp; mkdir -p ./IPQ6018 &amp;&amp; mkdir -p ./IPQ9574 &amp;&amp; cp -r ./rpm_proc/* ./rpm_proc_bk/ &amp;&amp; rpm_proc/build/build_packed.sh 8074 &amp;&amp; mv ./rpm_proc ./IPQ8074/ &amp;&amp; mkdir -p ./rpm_proc &amp;&amp; cp -r ./rpm_proc_bk/* ./rpm_proc/ &amp;&amp; rpm_proc/build/build_packed.sh 6018 &amp;&amp; mv ./rpm_proc ./IPQ6018/ &amp;&amp; mkdir -p ./rpm_proc &amp;&amp; cp -r ./rpm_proc_bk/* ./rpm_proc/ &amp;&amp; rpm_proc/build/build_packed.sh 9574 &amp;&amp; mv ./rpm_proc ./IPQ9574/ &amp;&amp; mv ./rpm_proc_bk ./rpm_proc &amp;&amp; mkdir -p ./rpm_proc/build/ms/bin &amp;&amp; mkdir -p  ./rpm_proc/build/ms/bin/8074 &amp;&amp; mkdir -p  ./rpm_proc/build/ms/bin/6018 &amp;&amp; mkdir -p  ./rpm_proc/build/ms/bin/9574 &amp;&amp; cp ./IPQ8074/rpm_proc/build/ms/bin/8074/rpm.mbn ./rpm_proc/build/ms/bin/8074/rpm.mbn &amp;&amp; cp ./IPQ6018/rpm_proc/build/ms/bin/6018/rpm.mbn ./rpm_proc/build/ms/bin/6018/rpm.mbn &amp;&amp; cp ./IPQ9574/rpm_proc/build/ms/bin/9574/rpm.mbn ./rpm_proc/build/ms/bin/9574/rpm.mbn</build_command>
+    </build>
+    <build>
+      <name>apps</name>
+      <role>apps</role>
+      <chipset>ipq9574</chipset>
+      <build_id>NHSS.QSDK.12.2.r6-00023-P-1</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>apss_proc</image_dir>
+      <release_path>HY11_CompileTest</release_path>
+      <file_ref flash_apss_64_file="true">
+        <file_name>openwrt-*</file_name>
+        <file_path>apss_proc/out/ipq95xx_64/</file_path>
+      </file_ref>
+      <file_ref flash_apss_64_file="true">
+        <file_name>bl*</file_name>
+        <file_path>apss_proc/out/ipq95xx_64/</file_path>
+      </file_ref>
+      <file_ref flash_apss_64_file="true">
+        <file_name>*</file_name>
+        <file_path>apss_proc/out/ipq95xx_64/dtbs/</file_path>
+      </file_ref>
+      <file_ref flash_apss_64_file="true">
+        <file_name>openwrt-ipq9574*.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_32/</file_path>
+      </file_ref>
+      <file_ref flash_apss_ent_64_file="true">
+        <file_name>openwrt-ipq9574*.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_32/</file_path>
+      </file_ref>
+      <file_ref flash_apss_prem_64_file="true">
+        <file_name>openwrt-ipq9574*.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_32/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="APSS_ELF" minimized="true" secondary_boot="true">
+        <file_name>*vmlinux.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_64/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="APSS_ELF" minimized="true" secondary_boot="true">
+        <file_name>*vmlinux.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_32/</file_path>
+      </file_ref>
+      <file_ref flash_apss_prem_kasan_64_file="true">
+        <file_name>openwrt-*</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_premium_debug_kasan/</file_path>
+      </file_ref>
+      <file_ref flash_apss_prem_kasan_64_file="true">
+        <file_name>*</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_premium_debug_kasan/dtbs/</file_path>
+      </file_ref>
+      <file_ref flash_apss_prem_kasan_64_file="true">
+        <file_name>openwrt-ipq9574*.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_32/</file_path>
+      </file_ref>
+      <file_ref flash_apss_ent_kasan_64_file="true">
+        <file_name>openwrt-*</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_enterprise_debug_kasan/</file_path>
+      </file_ref>
+      <file_ref flash_apss_ent_kasan_64_file="true">
+        <file_name>*</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_enterprise_debug_kasan/dtbs/</file_path>
+      </file_ref>
+      <file_ref flash_apss_ent_kasan_64_file="true">
+        <file_name>openwrt-ipq9574*.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_32/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="APSS_ELF" minimized="true" secondary_boot="true">
+        <file_name>*vmlinux.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_enterprise_debug_kasan/</file_path>
+      </file_ref>
+      <file_ref flash_apss_512_kasan_64_file="true">
+        <file_name>openwrt-*</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_512_debug_kasan/</file_path>
+      </file_ref>
+      <file_ref flash_apss_512_kasan_64_file="true">
+        <file_name>*</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_512_debug_kasan/dtbs/</file_path>
+      </file_ref>
+      <file_ref flash_apss_512_kasan_64_file="true">
+        <file_name>openwrt-ipq9574*.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_32/</file_path>
+      </file_ref>
+      <file_ref flash_apss_64_debug_file="true">
+        <file_name>openwrt-*</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_premium_debug/</file_path>
+      </file_ref>
+      <file_ref flash_apss_64_debug_file="true">
+        <file_name>*</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_premium_debug/dtbs/</file_path>
+      </file_ref>
+      <file_ref flash_apss_64_debug_file="true">
+        <file_name>openwrt-ipq9574*.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_32_premium_debug/</file_path>
+      </file_ref>
+      <file_ref flash_apss_64_prem_draft3_0_file="true">
+        <file_name>openwrt-*</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_premium_draft3_0/</file_path>
+      </file_ref>
+      <file_ref flash_apss_64_prem_draft3_0_file="true">
+        <file_name>*</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_premium_draft3_0/dtbs/</file_path>
+      </file_ref>
+      <file_ref flash_apss_64_prem_draft3_0_file="true">
+        <file_name>openwrt-ipq9574*.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_32_premium_draft3_0/</file_path>
+      </file_ref>
+      <file_ref flash_apss_file="true">
+        <file_name>openwrt*</file_name>
+        <file_path>apss_proc/out/ipq95xx_32/</file_path>
+      </file_ref>
+      <file_ref flash_apss_file="true">
+        <file_name>bl*</file_name>
+        <file_path>apss_proc/out/ipq95xx_32/</file_path>
+      </file_ref>
+      <file_ref flash_apss_file="true">
+        <file_name>*</file_name>
+        <file_path>apss_proc/out/ipq95xx_32/dtbs</file_path>
+      </file_ref>
+      <file_ref flash_apss_prem_draft3_0_file="true">
+        <file_name>openwrt*</file_name>
+        <file_path>apss_proc/out/ipq95xx_32_premium_draft3_0/</file_path>
+      </file_ref>
+      <file_ref flash_apss_prem_draft3_0_file="true">
+        <file_name>bl*</file_name>
+        <file_path>apss_proc/out/ipq95xx_32_premium_draft3_0/</file_path>
+      </file_ref>
+      <file_ref flash_apss_prem_draft3_0_file="true">
+        <file_name>*</file_name>
+        <file_path>apss_proc/out/ipq95xx_32_premium_draft3_0/dtbs</file_path>
+      </file_ref>
+      <file_ref flash_apss_512_draft3_0_file="true">
+        <file_name>openwrt*</file_name>
+        <file_path>apss_proc/out/ipq95xx_32_512_draft3_0/</file_path>
+      </file_ref>
+      <file_ref flash_apss_512_draft3_0_file="true">
+        <file_name>bl*</file_name>
+        <file_path>apss_proc/out/ipq95xx_32_512_draft3_0/</file_path>
+      </file_ref>
+      <file_ref flash_apss_512_draft3_0_file="true">
+        <file_name>*</file_name>
+        <file_path>apss_proc/out/ipq95xx_32_512_draft3_0/dtbs</file_path>
+      </file_ref>
+      <file_ref flash_apss_debug_file="true">
+        <file_name>openwrt-*</file_name>
+        <file_path>apss_proc/out/ipq95xx_32_premium_debug/</file_path>
+      </file_ref>
+      <file_ref flash_apss_debug_file="true">
+        <file_name>*</file_name>
+        <file_path>apss_proc/out/ipq95xx_32_premium_debug/dtbs/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="APSS_ELF" minimized="true" secondary_boot="true">
+        <file_name>*vmlinux.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_32_premium_debug/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="APSS_ELF" minimized="true" secondary_boot="true">
+        <file_name>*vmlinux.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_premium_debug_kasan/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="APSS_ELF" minimized="true" secondary_boot="true">
+        <file_name>*vmlinux.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_premium_debug/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="APSS_ELF" minimized="true" secondary_boot="true">
+        <file_name>*vmlinux.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_512_debug_kasan/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="APSS_ELF" minimized="true" secondary_boot="true">
+        <file_name>*vmlinux.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_32_512_draft3_0/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="APSS_ELF" minimized="true" secondary_boot="true">
+        <file_name>*vmlinux.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_64_premium_draft3_0/</file_path>
+      </file_ref>
+      <file_ref cmm_file_var="APSS_ELF" minimized="true" secondary_boot="true">
+        <file_name>*vmlinux.elf</file_name>
+        <file_path>apss_proc/out/ipq95xx_32_premium_draft3_0/</file_path>
+      </file_ref>
+      <buildfile_path>./</buildfile_path>
+      <build_command>create_BuildProducts ./create_BuildProducts</build_command>
+    </build>
+    <build>
+      <name>tmel</name>
+      <role>tmel</role>
+      <chipset>ipq9574</chipset>
+      <build_id>TMEL.WNS.1.0-00068-IPQ95xxAAAAANAZT-1</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>tmel_images</image_dir>
+      <release_path/>
+      <file_ref flash_file="true">
+        <file_name>*</file_name>
+        <file_path>BIN/firmware/signed/</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>*</file_name>
+        <file_path>BIN/firmware/signed/</file_path>
+      </file_ref>
+      <buildfile_path>echo/</buildfile_path>
+      <build_command>echo BuildProducts.txt &gt; BuildProducts.txt &amp;&amp; cd tmel_images/product &amp;&amp; ./setup_pw.sh -o firmware &gt; build.log &amp;&amp; mkdir -p ../../BIN/firmware/signed &amp;&amp; cd ../../BIN/firmware &amp;&amp; cp ../../tmel_images/product/security_profile/alder_tme_security_profile.xml ../../BIN &amp;&amp; cp ../../tmel_images/product/dec/Alder_DebugEntitlementCertificate_OEM_Priv_v01_signed.bin ../../BIN &amp;&amp; /pkg/sectools/v2/latest/Linux/sectools secure-image ../../tmel_images/product/build_firmware/bin/tmel-ipq95xx-firmware.elf --outfile signed/tmel-ipq95xx-firmware.elf --security-profile ../../tmel_images/product/security_profile/alder_tme_security_profile.xml --image-id TME-FW --sign --qti --platform-binding SOC-HW-VER --cass-capability srot_prod_v6_alder_tme_release --signing-mode QTI-REMOTE --qti-remote-signing-server-port 1290 --qti-remote-signing-server-url http://10.201.2.12</build_command>
+    </build>
+    <build>
+      <name>nss</name>
+      <role>nss</role>
+      <chipset>ipq9574</chipset>
+      <build_id/>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>nss_proc</image_dir>
+    </build>
+    <build>
+      <name>wlan</name>
+      <role>wlan</role>
+      <chipset>ipq9574</chipset>
+      <build_id>WLAN.HK.2.9.r4-00018-QCAHKSWPL_SILICONZ-1</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>wlan_proc</image_dir>
+      <release_path>BIN</release_path>
+      <file_ref flash_file="true">
+        <file_name>*</file_name>
+        <file_path>wlan_proc/build/ms/bin/9574.wlanfw.eval/FW_IMAGES</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>*</file_name>
+        <file_path>wlan_proc/build/ms/bin/9574.wlanfw.eval/FW_IMAGES</file_path>
+      </file_ref>
+      <buildfile_path>/</buildfile_path>
+      <build_command> </build_command>
+    </build>
+    <build>
+      <name>wlan_wbe</name>
+      <role>wlan_wbe</role>
+      <chipset>ipq9574</chipset>
+      <build_id>WLAN.WBE.1.1.r7-00022-QCAHKSWPL_SILICONZ-1</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>wlan_proc</image_dir>
+      <release_path>BIN</release_path>
+      <file_ref flash_file="true">
+        <file_name>wifi_fw_qcn9224_v2_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.eval_v2</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>wifi_fw_qcn9224_v2_dualmac_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.single_dualmac_v2</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>wifi_fw_qcn9224_v2_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.eval_v2</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>wifi_fw_qcn9224_v2_dualmac_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.single_dualmac_v2</file_path>
+      </file_ref>
+      <buildfile_path>/</buildfile_path>
+      <build_command> </build_command>
+    </build>
+    <build>
+      <name>wlan_wbe2</name>
+      <role>wlan_wbe</role>
+      <chipset>ipq9574</chipset>
+      <build_id>WLAN.WBE.1.1.r7-00022-QCAHKSWPL_SILICONZ-1</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>wlan_proc</image_dir>
+      <release_path>BIN</release_path>
+      <file_ref flash_file="true">
+        <file_name>wifi_fw_qcn9224_v2_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.eval_v2</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>wifi_fw_qcn9224_v2_dualmac_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.single_dualmac_v2</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>wifi_fw_qcn9224_v2_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.eval_v2</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>wifi_fw_qcn9224_v2_dualmac_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.single_dualmac_v2</file_path>
+      </file_ref>
+      <buildfile_path>export/</buildfile_path>
+      <build_command>export CRM_BUILDID=${CRM_BUILDID}; export PATH=$PATH:/pkg/qct/software/ubuntu/mksquashfs/; cd ./wlan_proc/build/ms; sh build.sh 9224.core.v1_TO load_wlan_scons=false; sh build.sh 9224.wlanfw.eval pgo_enable=true -k mac_num=2 ax_enable=true cnss_hw_version=e2r56 disable_fbc=false; cd ../../../; python wlan_proc/wlan/syssw_platform/src/platform/debug/scripts/memory_analysis/memory_report.py --chip waikiki --output ./static_mem_data_wkk; cd ./wlan_proc/wlan/build/support; echo &quot;INFO: Current Dir: '$(pwd)'&quot;; echo &quot;CMD : Running 'bash makepkg --trace --crm-build-id ${CRM_BUILDID} --pkg-type SRC --cnss_hw_rev 1.0'&quot;; bash makepkg --trace --crm-build-id ${CRM_BUILDID} --pkg-type SRC --chipset QCN9224 --cnss_hw_rev 1.0; echo &quot;INFO: makepkg 1.0 SRC Exit Code: $?&quot;;</build_command>
+    </build>
+    <build>
+      <name>wlan_wbe3</name>
+      <role>wlan_wbe</role>
+      <chipset>ipq9574</chipset>
+      <build_id>WLAN.WBE.1.1.r7-00022-QCAHKSWPL_SILICONZ-1</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>wlan_proc</image_dir>
+      <release_path>BIN</release_path>
+      <file_ref flash_file="true">
+        <file_name>wifi_fw_qcn9224_v2_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.eval_v2</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>wifi_fw_qcn9224_v2_dualmac_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.single_dualmac_v2</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>wifi_fw_qcn9224_v2_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.eval_v2</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>wifi_fw_qcn9224_v2_dualmac_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.single_dualmac_v2</file_path>
+      </file_ref>
+      <buildfile_path>export/</buildfile_path>
+      <build_command>export CRM_BUILDID=${CRM_BUILDID}; export PATH=$PATH:/pkg/qct/software/ubuntu/mksquashfs/; cd ./wlan_proc/build/ms; sh build.sh 9224.core.v1_TO load_wlan_scons=false; sh build.sh 9224.wlanfw.eval pgo_enable=true -k mac_num=2 ax_enable=true cnss_hw_version=e2r56 disable_fbc=false; cd ../../../; python wlan_proc/wlan/syssw_platform/src/platform/debug/scripts/memory_analysis/memory_report.py --chip waikiki --output ./static_mem_data_wkk; cd ./wlan_proc/wlan/build/support; echo &quot;INFO: Current Dir: '$(pwd)'&quot;; echo &quot;CMD : Running 'bash makepkg --trace --crm-build-id ${CRM_BUILDID} --pkg-type SRC --cnss_hw_rev 1.0'&quot;; bash makepkg --trace --crm-build-id ${CRM_BUILDID} --pkg-type SRC --chipset QCN9224 --cnss_hw_rev 1.0; echo &quot;INFO: makepkg 1.0 SRC Exit Code: $?&quot;;</build_command>
+    </build>
+    <build>
+      <name>wlan_wbe4</name>
+      <role>wlan_wbe</role>
+      <chipset>ipq9574</chipset>
+      <build_id>WLAN.WBE.1.1.r7-00022-QCAHKSWPL_SILICONZ-1</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>wlan_proc</image_dir>
+      <release_path>BIN</release_path>
+      <file_ref flash_file="true">
+        <file_name>wifi_fw_qcn9224_v2_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.eval_v2</file_path>
+      </file_ref>
+      <file_ref flash_file="true">
+        <file_name>wifi_fw_qcn9224_v2_dualmac_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.single_dualmac_v2</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>wifi_fw_qcn9224_v2_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.eval_v2</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>wifi_fw_qcn9224_v2_dualmac_squashfs.img</file_name>
+        <file_path>wlan_proc/build/ms/bin/9224.wlanfw.single_dualmac_v2</file_path>
+      </file_ref>
+      <buildfile_path>export/</buildfile_path>
+      <build_command>export CRM_BUILDID=${CRM_BUILDID}; export PATH=$PATH:/pkg/qct/software/ubuntu/mksquashfs/; cd ./wlan_proc/build/ms; sh build.sh 9224.core.v1_TO load_wlan_scons=false; sh build.sh 9224.wlanfw.eval pgo_enable=true -k mac_num=2 ax_enable=true cnss_hw_version=e2r56 disable_fbc=false; cd ../../../; python wlan_proc/wlan/syssw_platform/src/platform/debug/scripts/memory_analysis/memory_report.py --chip waikiki --output ./static_mem_data_wkk; cd ./wlan_proc/wlan/build/support; echo &quot;INFO: Current Dir: '$(pwd)'&quot;; echo &quot;CMD : Running 'bash makepkg --trace --crm-build-id ${CRM_BUILDID} --pkg-type SRC --cnss_hw_rev 1.0'&quot;; bash makepkg --trace --crm-build-id ${CRM_BUILDID} --pkg-type SRC --chipset QCN9224 --cnss_hw_rev 1.0; echo &quot;INFO: makepkg 1.0 SRC Exit Code: $?&quot;;</build_command>
+    </build>
+    <build>
+      <name>wlan_pine</name>
+      <role>wlan_pine</role>
+      <chipset>ipq9574</chipset>
+      <build_id>WLAN.HK.2.9.r4-00018-QCAHKSWPL_SILICONZ-1</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>wlan_proc</image_dir>
+      <release_path>BIN</release_path>
+      <file_ref flash_file="true">
+        <file_name>*</file_name>
+        <file_path>wlan_proc/build/ms/bin/9000.wlanfw.eval_v1/FW_IMAGES</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>*</file_name>
+        <file_path>wlan_proc/build/ms/bin/9000.wlanfw.eval_v1/FW_IMAGES</file_path>
+      </file_ref>
+      <buildfile_path>export/</buildfile_path>
+      <build_command>export CRM_BUILDID=${CRM_BUILDID}; export PATH=$PATH:/pkg/qct/software/ubuntu/mksquashfs/;cd ./wlan_proc/build/ms; sh build_pine.sh 9000.wlanfw.eval_v1 -k disable_fbc=false sw_platform=win mac_num=1 lto_enable=true pgo_enable=true buildspec=klocwork BUILD_VER=9999;cd ../../..; pwd; mkdir -p ./SRC ;mkdir -p ./BIN ;mkdir -p ./BIN-WLAN-PINE</build_command>
+    </build>
+    <build>
+      <name>wlan_pine2</name>
+      <role>wlan_pine</role>
+      <chipset>ipq9574</chipset>
+      <build_id>WLAN.HK.2.9.r4-00018-QCAHKSWPL_SILICONZ-1</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>wlan_proc</image_dir>
+      <release_path>BIN</release_path>
+      <file_ref flash_file="true">
+        <file_name>*</file_name>
+        <file_path>wlan_proc/build/ms/bin/9000.wlanfw.eval_v1/FW_IMAGES</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>*</file_name>
+        <file_path>wlan_proc/build/ms/bin/9000.wlanfw.eval_v1/FW_IMAGES</file_path>
+      </file_ref>
+      <buildfile_path>export/</buildfile_path>
+      <build_command>export CRM_BUILDID=${CRM_BUILDID}; export PATH=$PATH:/pkg/qct/software/ubuntu/mksquashfs/;cd ./wlan_proc/build/ms; sh build_pine.sh 9000.wlanfw.eval_v1 -k disable_fbc=false sw_platform=win mac_num=1 lto_enable=true pgo_enable=true buildspec=klocwork BUILD_VER=9999;cd ../../..; pwd; mkdir -p ./SRC ;mkdir -p ./BIN ;mkdir -p ./BIN-WLAN-PINE</build_command>
+    </build>
+    <build>
+      <name>wlan_pine3</name>
+      <role>wlan_pine</role>
+      <chipset>ipq9574</chipset>
+      <build_id>WLAN.HK.2.9.r4-00018-QCAHKSWPL_SILICONZ-1</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>wlan_proc</image_dir>
+      <release_path>BIN</release_path>
+      <file_ref flash_file="true">
+        <file_name>*</file_name>
+        <file_path>wlan_proc/build/ms/bin/9000.wlanfw.eval_v1/FW_IMAGES</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>*</file_name>
+        <file_path>wlan_proc/build/ms/bin/9000.wlanfw.eval_v1/FW_IMAGES</file_path>
+      </file_ref>
+      <buildfile_path>export/</buildfile_path>
+      <build_command>export CRM_BUILDID=${CRM_BUILDID}; export PATH=$PATH:/pkg/qct/software/ubuntu/mksquashfs/;cd ./wlan_proc/build/ms; sh build_pine.sh 9000.wlanfw.eval_v1 -k disable_fbc=false sw_platform=win mac_num=1 lto_enable=true pgo_enable=true buildspec=klocwork BUILD_VER=9999;cd ../../..; pwd; mkdir -p ./SRC ;mkdir -p ./BIN ;mkdir -p ./BIN-WLAN-PINE</build_command>
+    </build>
+    <build>
+      <name>wlan_pine4</name>
+      <role>wlan_pine</role>
+      <chipset>ipq9574</chipset>
+      <build_id>WLAN.HK.2.9.r4-00018-QCAHKSWPL_SILICONZ-1</build_id>
+      <windows_root_path>.\\\\\</windows_root_path>
+      <linux_root_path>./////</linux_root_path>
+      <image_dir>wlan_proc</image_dir>
+      <release_path>BIN</release_path>
+      <file_ref flash_file="true">
+        <file_name>*</file_name>
+        <file_path>wlan_proc/build/ms/bin/9000.wlanfw.eval_v1/FW_IMAGES</file_path>
+      </file_ref>
+      <file_ref flash_64_file="true">
+        <file_name>*</file_name>
+        <file_path>wlan_proc/build/ms/bin/9000.wlanfw.eval_v1/FW_IMAGES</file_path>
+      </file_ref>
+      <buildfile_path>export/</buildfile_path>
+      <build_command>export CRM_BUILDID=${CRM_BUILDID}; export PATH=$PATH:/pkg/qct/software/ubuntu/mksquashfs/;cd ./wlan_proc/build/ms; sh build_pine.sh 9000.wlanfw.eval_v1 -k disable_fbc=false sw_platform=win mac_num=1 lto_enable=true pgo_enable=true buildspec=klocwork BUILD_VER=9999;cd ../../..; pwd; mkdir -p ./SRC ;mkdir -p ./BIN ;mkdir -p ./BIN-WLAN-PINE</build_command>
+    </build>
+  </builds_flat>
+  <build_tools>
+    <tool>
+      <name>create_FIT_image</name>
+      <build>apps</build>
+      <path>apss_proc/out/meta-scripts/pack_hk.py</path>
+    </tool>
+    <tool>
+      <name>meta_tools</name>
+      <build>apps</build>
+      <path>apss_proc/out/meta-tools</path>
+    </tool>
+    <tool>
+      <name>jtag-scripts</name>
+      <build>apps</build>
+      <path>apss_proc/out/jtag-scripts</path>
+    </tool>
+    <tool>
+      <name>exported_packages</name>
+      <build>apps</build>
+      <path>apss_proc/out/ipq95xx_32/packages</path>
+    </tool>
+    <tool>
+      <name>exported_packages_64</name>
+      <build>apps</build>
+      <path>apss_proc/out/ipq95xx_64/packages</path>
+    </tool>
+    <tool>
+      <name>exported_packages_debug</name>
+      <build>apps</build>
+      <path>apss_proc/out/ipq95xx_32_premium_debug/packages</path>
+    </tool>
+    <tool>
+      <name>exported_packages_debug_64</name>
+      <build>apps</build>
+      <path>apss_proc/out/ipq95xx_64_premium_debug/packages</path>
+    </tool>
+    <tool>
+      <name>exported_packages_prem_kasan_64</name>
+      <build>apps</build>
+      <path>apss_proc/out/ipq95xx_64_premium_debug_kasan/packages</path>
+    </tool>
+    <tool>
+      <name>exported_packages_ent_kasan_64</name>
+      <build>apps</build>
+      <path>apss_proc/out/ipq95xx_64_enterprise_debug_kasan/packages</path>
+    </tool>
+    <tool>
+      <name>exported_packages_512_kasan_64</name>
+      <build>apps</build>
+      <path>apss_proc/out/ipq95xx_64_512_debug_kasan/packages</path>
+    </tool>
+    <tool>
+      <name>exported_packages_512_draft_3_0</name>
+      <build>apps</build>
+      <path>apss_proc/out/ipq95xx_32_512_draft3_0/packages</path>
+    </tool>
+    <tool>
+      <name>exported_packages_prem_draft_3_0</name>
+      <build>apps</build>
+      <path>apss_proc/out/ipq95xx_32_premium_draft3_0/packages</path>
+    </tool>
+    <tool>
+      <name>exported_packages_prem_draft_3_0_64</name>
+      <build>apps</build>
+      <path>apss_proc/out/ipq95xx_64_premium_draft3_0/packages</path>
+    </tool>
+    <tool>
+      <name>skales</name>
+      <build>apps</build>
+      <path>apss_proc/out/skales</path>
+    </tool>
+  </build_tools>
+  <external_tools>
+      
+   </external_tools>
+  <builds_nested>
+      
+   </builds_nested>
+</contents>
